@@ -16,17 +16,51 @@
         <!-- Top Bar -->
         <div class="top-bar">
                 <!--Hamburger Menu Icon-->
-                <span class="material-symbols-outlined" id="hamb1">menu</span>
+                <div class="menu1">
+                    <span class="material-symbols-outlined" id="hamb1">menu</span>
+                </div>
                 <!--YouTube Logo-->
                 <a href="#" class="img-link"><img src="img/youtube-logo.png" class="yt-logo-top-img" alt="YouTube Logo" width="110px" height="24px"></a>
-                <!--Search Bar-->
+                <!--Search Box + Btn-->
                 <div class="search-container">
                     <!--Search Box-->
                     <input type="search" name="searchbox" id="findbox" placeholder="Search" autocomplete="off">
                     <!--Search Button-->
-                     <a href="#" class="search-btn"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i></a>
+                     <a href="#" class="search-btn" title="Search"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i></a>
+                     <!--Voice Search-->
+                     <div class="voice-search">
+                        <span class="material-symbols-outlined" id="mic1" title="Search with your voice">mic</span>
+                     </div>
                 </div>
+                <!--Settings + SignIN-->
+               <!-- <div class="last-row">
+                    <span class="material-symbols-outlined" id="settings" title="Settings">more_vert</span>
+                    <span class="material-symbols-outlined" id="signin">account_circle</span>
+                    <a href="#"><b>Sign in</b></a>
+                </div> -->
         </div>
     </header>
+
+    <section class="sidebar">
+        <!--Home-->
+        <span class="material-symbols-outlined active-menu sidebar-icon" id="homeicon">home</span>
+        <span class="home-txt sidebar-txt">Home</span>
+
+        <!--Shorts-->
+        <img src="img/yt-shorts.png" alt="YouTube Shorts" width="20px" height="20px" class="sidebar-icon" id="shortsicon">
+        <span class="shorts-txt sidebar-txt">Shorts</span>
+
+        <!--Subscriptions-->
+        <span class="material-symbols-outlined sidebar-icon" id="subscicon">subscriptions</span>
+        <span class="subsc-txt sidebar-txt">Subscriptions</span>
+
+        <!--Accounts / You-->
+        <span class="material-symbols-outlined sidebar-icon" id="youicon">account_circle</span>
+        <span class="you-txt sidebar-txt">You</span>
+
+        <!--History-->
+        <span class="material-symbols-outlined sidebar-icon" id="histicon">history</span>
+        <span class="hist-txt sidebar-txt">History</span>
+    </section>
 </body>
 </html>
